@@ -8,23 +8,26 @@
 </head>
 
 <body>
-    <!--<nav>
-        <a href="">Dolor</a>
-        <a href="">Video</a>
-        <a href="">En que consiste</a>
-        <a href="">Objeciones</a>
-        <a href="">Que contiene</a>
-        <a href="">Bonus</a>
-        <a href="">FAQ</a>
-    </nav> -->
     <section class="dolor-section">
-        <header>
+        <header id="navbar">
+            <div class="wrap-logo-nav">
+                <img class="logo-nav" src="./img/growthness-logo.png">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#video">VIDEO</a></li>
+                    <li><a href="#metodo">NUESTRO MÉTODO</a></li>
+                    <li><a href="#bonus">BONUS</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <div class="wrap-dolor">
             <div>
                 <img class="dolor-logo" src="./img/growthness.png">
             </div>
-        </header>
+        </div>
         <div class="dolor-mensaje">
-            <h1>¿Eres un <b style="color: orangered;">COACH FITNESS</b> que no tiene tiempo para administrar el contenido de su <b style="color: orangered;">negocio</b> en redes sociales,
+            <h1>¿Eres un <b style="color: orangered;">COACH FITNESS</b> que no tiene tiempo para administrar el contenido de su <b style="color: orangered;">NEGOCIO</b> en redes sociales,
                 y no poder escalarlo a pesar de su pasión y experiencia?</h1>
             <h2>
                 Consigue llamadas de ventas y nuevos alumnos cada semana, 
@@ -34,13 +37,13 @@
         </div>
     </section>
     
-    <section class="video-section">
+    <section class="video-section" id="video">
         <div class="wrap-video">
             <iframe class = "video" src="https://www.youtube.com/embed/Qn6NqnFkdvU?si=KqQZOviVVdUVQyiP" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class = "wrap-texto-video">
             <p>
-                Si estás listo para que con mi equipo te ayudemos a escalar tu <b style="color: orangered;">negocio FITNESS</b> 
+                Si estás listo para que con mi equipo te ayudemos a escalar tu <b style="color: orangered;">NEGOCIO FITNESS</b> 
                 con una estrategia de contenidos claros y efectivos, agenda una llamada en este momento.
             </p>
         </div>
@@ -58,12 +61,12 @@
         <section class="llamada-section">
             <div class="wrap-llamada">
                 <p>
-                    En la llamada analizaremos si cumples con los requisitos para que podamos implementar nuestro método en tu <b style="color: orangered;">negocio</b>.<br>
+                    En la llamada analizaremos si cumples con los requisitos para que podamos implementar nuestro método en tu <b style="color: orangered;">NEGOCIO</b>.<br>
                     Gran parte de nuestro éxito ha sido escoger muy bien a quién vamos a ayudar con nuestra estrategia de contenidos e invertir nuestro tiempo.</p>
             </div>
         </section>
 
-        <section class="objeciones-section">
+        <section class="objeciones-section" id="metodo">
             <h1 style="color: orangered">ESTE MÉTODO ES PARA TI SI:</h1>
             <ul>
                 <li>Eres un coach fitness.</li>
@@ -109,8 +112,9 @@
         </div>
     </div>
     </section>
+
     <section class = "fondo-3">
-        <section class="bonus-section">
+        <section class="bonus-section" id="bonus">
             <h1 style="color: orangered;">BONUS</h1>
             <ul>
                 <li><img class="img-bonus" src="./img/DOC-CLIENTE-IDEAL.png"></li>
@@ -144,7 +148,7 @@
             <ol>
                 <li>No hacer nada con esta información y no agendar tu llamada, abriendo la posibilidad de que llegues al punto crítico, como nos sucedió a nosotros (La peor de todas).</li>
                 <li>Intentar hacer todo esto por tu cuenta, intentando adaptar nuestro <b style="color: orangered;">MÉTODO</b> en tu caso. Por más que esta estructura se pueda copiar, es muy dificil que funcione si no conoces los secretos que hay detrás de toda estrategia.</li>
-                <li>Y la que más nos gusta, es que hables con nosotros para poder analizar tu caso y ver si realmente este tipo de <b style="color: orangered;">MÉTODO</b> aplica para tu <b style="color: orangered;">negocio</b>.</li>
+                <li>Y la que más nos gusta, es que hables con nosotros para poder analizar tu caso y ver si realmente este tipo de <b style="color: orangered;">MÉTODO</b> aplica para tu <b style="color: orangered;">NEGOCIO</b>.</li>
             </ol>
         <div class="wrap-camino-texto">
             <p>
@@ -154,7 +158,7 @@
 
         <div class="wrap-camino-texto">
             <p>
-                <b style="color: orangered;">Agendar la llamada</b> es el camino más inteligente que puedes tomar para poder saber y hablar con alguien que te asesore en el tema, para conocer si esto es realmente para ti.
+                <b style="color: orangered;">AGENDAR LA LLAMADA</b> es el camino más inteligente que puedes tomar para poder saber y hablar con alguien que te asesore en el tema, para conocer si esto es realmente para ti.
             </p>
         </div>
 
@@ -167,5 +171,8 @@
             </p>
         </div>
     </footer>
+    
 </body>
+<script src="./scripts/show_navbar.js"></script>
+<script src="./scripts/scroll_smooth.js"></script>
 </html>
